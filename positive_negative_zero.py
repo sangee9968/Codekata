@@ -4,4 +4,4 @@ if n>0:
 else if n<0:
    print("Negative")
 else:
-   Print("Zero")
+   print("Zero")
