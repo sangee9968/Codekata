@@ -1,11 +1,11 @@
 n=int(input())
-rev=0
+re=0
 m=n
 while n>0:
    r=n%10
-   rev=rev+(r*r*r)
+   re=re+(r*r*r)
    n=n//10
-if m==rev:
+if m==re:
    print("yes")
 else:
    print("no")
