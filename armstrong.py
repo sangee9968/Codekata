@@ -1,10 +1,10 @@
-n=int(input())
+h=int(input())
 re=0
 m=n
-while n>0:
-   r=n%10
+while h>0:
+   r=h%10
    re=re+(r*r*r)
-   n=n//10
+   h=h//10
 if m==re:
    print("yes")
 else:
