@@ -1,3 +1,4 @@
+s=""
 n,k=map(int,input().split())
 for num in range(n+1,k):
    if num>1:
@@ -5,4 +6,6 @@ for num in range(n+1,k):
          if num%j==0:
             break
       else:
-         print(num,end=" ")
+         s=s+str(num)+" "
+w=s.strip()
+print(w)
