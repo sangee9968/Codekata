@@ -1,6 +1,6 @@
 s=""
 n,k=map(int,input().strip().split())
-for i in range(n,k+1):
+for i in range(n,k):
    rev=0
    temp=i
    while temp>0:
